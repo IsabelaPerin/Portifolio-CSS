@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+</head>
+
+<body>
+
+    <fieldset>
+        <legend>Formulário</legend>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name">
+            <br><br>
+            <label for="contato">Número para contato:</label>
+            <input type="number" name="phone" id="contato">
+            <br><br>
+            <label for="" email>E-mail:</label>
+            <input type="email">
+            <br><br>
+            <label for="senha">Senha:</label>
+            <input type="password">
+            <br><br>
+            <label for="message">Feedback:</label>
+            <br>
+            <textarea name="message" required cols="20" rows="10" maxlength="300" minlength="10"
+                placeholder="Deixe seu comentário aqui"></textarea>
+            <br><br>
+            <input type="submit" value="Enviar">
+            <input type="hidden" name="accessKey" value="79e5c99a-750b-4acd-8bf9-0d2ecb80cff6">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
+        </form>
+    </fieldset>
+
+    <br><br><br>
+
+    <footer>
+        <nav style="text-align: center;">
+            <a href="../HTML/projetos.html">Voltar para página principal</a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
